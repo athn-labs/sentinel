@@ -1,6 +1,6 @@
 # Sentinel
 
-System diagnostic CLI for Linux servers
+System diagnostic CLI for Linux servers.
 
 ## Why?
 
@@ -10,7 +10,7 @@ Sentinel was created to simplify collecting information about a Linux server. Ge
 
 - Display hostname
 
-- #(more features coming soon)
+- More features coming soon
 
 ## Tech Stack
 
@@ -22,7 +22,7 @@ Sentinel was created to simplify collecting information about a Linux server. Ge
 
 ## Project Status
 
-in development
+Development
 
 ## Roadmap
 
