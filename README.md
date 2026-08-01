@@ -10,7 +10,13 @@ Sentinel was created to simplify collecting information about a Linux server. Ge
 
 - Display hostname
 
-- More features coming soon
+- Display kernel version
+
+- Display uptime
+
+- Display memory usage in %
+
+- Display disk usage -  check in-use and overall disk space
 
 ## Tech Stack
 
@@ -28,13 +34,13 @@ Development
 
 - [x] Display hostname
 
-- [ ] Display kernel version
+- [x] Display kernel version
 
-- [ ] Display uptime
+- [x] Display uptime
 
-- [ ] Display memory usage
+- [x] Display memory usage
 
-- [ ] Display disk usage
+- [x] Display disk usage
 
 ## License
 
