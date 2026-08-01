@@ -21,7 +21,7 @@ def collect_system_info():
     #system_info['Memory'] = get_command_output('free -h | awk \'NR==2{print$2\'/\'$3}\'') possible to use with Shell=true
     memory_output = get_command_output('free -h')
     memory_lines = memory_output.splitlines()
-    memory = f"{memory_lines[1].split()[1]}/{memory_lines[1].split()[2]}"
+    memory = f"{memory_lines[1].split()[2]}/{memory_lines[1].split()[1]}"
     system_info['Memory'] = memory
     system_info['IP Address'] = get_command_output('hostname -I')
     
